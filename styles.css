@@ -1,0 +1,34 @@
+div{
+    background-color: #000;
+    height: 100vh;
+    width: 100vw; 
+    display: grid;
+    /* grid-template-areas:
+    "header header header"
+    "main main aside"
+    "footer footer footer"
+    ; Para grid template */
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+header{
+    background: red;
+    /*height: 100px;
+    /*grid-area: header;Para grid template */
+    grid-column: 1 / 3;
+}
+main{
+    background: blue;
+    /*height: 200px;
+    /*grid-area: main;Para grid template */
+}
+aside{
+    background: yellow;
+    /*height: 200px;
+    /*grid-area: aside;Para grid template */
+}
+footer{
+    background: purple;
+   /* height: 100px;
+    /*grid-area: footer;Para grid template */
+}
